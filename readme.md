@@ -55,6 +55,20 @@ DATABASES = {
     }
 }
 ```
+- For mySQL
+
+- ```py
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "e_learning",
+        "USER": "root",
+        "PASSWORD": "user",
+        "HOST": "localhost",
+        "PORT": "3306",
+    }
+}
+```
 
 - This will change your database from dbSqlite to Postgress.
 
